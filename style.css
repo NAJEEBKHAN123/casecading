@@ -1,0 +1,55 @@
+/* last rule */
+/* h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+p{
+    color: green;
+}
+p{
+    color: aqua;
+} */
+/* specificity */
+/* *{
+    color: red;
+}
+p{
+    color: blue;
+}
+p{
+    color: green;
+}
+p#add{
+    color: aqua;
+} */
+/* important */
+/* p{
+    color: green !important;
+}
+p{
+
+    color: red;
+} */
+
+
+/* inheritance */
+/* div{
+    color: rebeccapurple;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: inherit;
+} */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    padding: 10px;
+    border: 2px solid black;
+}
+.added{
+    font-family: inherit;
+    border: 2px solid red;
+    padding: inherit;
+}
